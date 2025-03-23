@@ -1,0 +1,41 @@
+# ChatGPT Clone License
+
+**Version 1.0, March 23, 2025**
+
+## Copyright (c) 2025 Mahmoud Elsayed
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+2. Any distribution of the Software or derivative works must include attribution to the original author (Mahmoud Elsayed) in the form of the author's name and a link to the original repository in documentation or the application's about/credits page.
+
+3. If this Software or a derivative work is used as part of a commercial service or product, the license holder agrees to provide attribution to the original author (Mahmoud Elsayed) within the product or service documentation, website, or other appropriate location visible to users.
+
+4. The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Software or the use or other dealings in the Software.
+
+5. This license does not grant permission to use the trade names, trademarks, service marks, or product names of the original author, except as required for reasonable and customary use in describing the origin of the work.
+
+6. If you modify the Software, you must clearly indicate that you have made changes to the original work, describing the modifications and including the date of change.
+
+7. This license shall be governed by and construed in accordance with the laws of the jurisdiction in which the original author resides, without regard to its conflict of law principles.
+
+## DISCLAIMER REGARDING AI MODEL USAGE
+
+This Software is designed to integrate with various AI models and providers. The license holder acknowledges that:
+
+1. Use of third-party AI models or APIs through this Software is subject to the terms, conditions, and usage policies of the respective providers.
+  
+2. The original author (Mahmoud Elsayed) is not responsible for costs, rate limiting, or any other restrictions imposed by AI model providers.
+
+3. The license holder is responsible for complying with all applicable laws and regulations regarding AI usage, data privacy, and intellectual property rights when using this Software.
+
+4. The license holder acknowledges that outputs from AI models may be subject to additional copyright considerations beyond the scope of this license.
+
+## ATTRIBUTION
+
+If you use this Software in your project or service, please include the following attribution:
+
+"This application includes ChatGPT Clone software developed by Mahmoud Elsayed."
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
