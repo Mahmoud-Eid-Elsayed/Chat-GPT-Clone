@@ -25,64 +25,72 @@ A full-featured, self-hosted chat application powered by AI, supporting multiple
 
 ## 🚀 Installation
 
-1. Clone the repository
-```bash
-git clone https://github.com/Mahmoud-Eid-Elsayed/Chat-GPT-Clone
-cd chatgpt-clone
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Mahmoud-Eid-Elsayed/Chat-GPT-Clone
+    cd chatgpt-clone
+    ```
 
-2. Install PHP dependencies
-```bash
-composer install
-```
+2. Install PHP dependencies:
+    ```bash
+    composer install
+    ```
 
-3. Install JavaScript dependencies
-```bash
-npm install
-```
+3. Install JavaScript dependencies:
+    ```bash
+    npm install
+    ```
 
-4. Copy the environment file and configure your settings
-```bash
-cp .env.example .env
-```
+4. Copy the environment file and configure your settings:
+    ```bash
+    cp .env.example .env
+    ```
 
-5. Generate application key
-```bash
-php artisan key:generate
-```
+5. Generate application key:
+    ```bash
+    php artisan key:generate
+    ```
 
-6. Configure your database in the `.env` file
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=chatgpt_clone
-DB_USERNAME=root
-DB_PASSWORD=
-```
+6. Configure your database in the `.env` file:
+    ```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=chatgpt_clone
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
 
-7. Configure your AI provider API keys
-```
-OPENAI_API_KEY=your-api-key
-OLLAMA_API_URL=http://localhost:11434
-```
+7. Configure your AI provider API keys:
+    ```
+    OPENAI_API_KEY=your-api-key
+    OLLAMA_API_URL=http://localhost:11434
+    ```
 
-8. Run migrations and seed the database
-```bash
-php artisan migrate --seed
-```
+8. Run migrations and seed the database:
+    ```bash
+    php artisan migrate --seed
+    ```
 
-9. Build assets
-```bash
-npm run build
-```
+9. Build assets:
+    ```bash
+    npm run build
+    ```
 
-10. Start the development server
-```bash
-php artisan serve
-```
+10. Start the development server:
+    ```bash
+    php artisan serve
+    ```
 
 11. Visit `http://localhost:8000` in your browser
+
+## 🗂️ Database & Schema
+
+For database schema and entity relationship diagram (ERD), refer to the following files inside the `database-docs` folder:
+
+- [Database Schema](chatgpt-clone/database-docs/chatgpt-clone-schema.sql)
+- [ERD Explanation](chatgpt-clone/database-docs/ERD%20Explanation.md)
+- [ERD Diagram](chatgpt-clone/database-docs/ERD%20for%20ChatGPT%20Clone%20System.svg)
 
 ## 🧩 Configuration
 
@@ -97,7 +105,11 @@ The application supports multiple AI providers:
 #### Ollama
 - Install Ollama on your local machine or server
 - Set the API URL in the `.env` file (default: `http://localhost:11434`)
-- Download models using Ollama CLI: `ollama pull llama3` or `ollama pull mistral`
+- Download models using Ollama CLI:
+    ```bash
+    ollama pull llama3
+    ollama pull mistral
+    ```
 
 ### Adding New Models
 
@@ -129,15 +141,17 @@ npm run dev
 php artisan test
 ```
 
+## 📌 Connect with Me
+
+- **GitHub**: [Mahmoud Elsayed](https://github.com/Mahmoud-Eid-Elsayed)
+- **LinkedIn**: [Mahmoud Elsayed](https://www.linkedin.com/in/mahmoud-elsayed/)
+
 ## 📝 License
 
-This project is licensed under the custom license - see the LICENSE file for details.
-
-## 👨‍💻 Author
-
-**Mahmoud Elsayed**
+This project is licensed under a custom license - see the LICENSE file for details.
 
 ## 🙏 Acknowledgements
 
 - Laravel Team for the amazing framework
 - OpenAI for their API
+
